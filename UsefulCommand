@@ -1,0 +1,46 @@
+## Directory Setup
+
+pwd
+mkdir /e/vagrant-vms
+cd /f/vagrant-vms/
+cd /e/vagrant-vms/
+ls
+mkdir centos
+mkdir ubuntu
+ls
+clear
+
+## CentOS Virtual Machine Setup
+
+cd centos/
+pwd
+cd /e/vagrant-vms/centos
+vagrant init eurolinux-vagrant/centos-stream-9
+ls
+cat Vagrantfile
+vagrant up
+vagrant box list
+vagrant status
+vagrant ssh
+vagrant halt
+vagrant up
+vagrant reload
+vagrant halt
+
+## Ubuntu Virtual Machine Setup
+
+cd ..
+ls
+cd ubuntu/
+pwd
+vagrant init ubuntu/jammy64
+vagrant up
+vagrant status
+vagrant global-status
+vagrant ssh
+vagrant halt
+vagrant global-status
+
+## Useful Command
+
+history
