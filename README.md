@@ -1,4 +1,4 @@
-# DevOps Vagrant Virtual Machines Lab
+# Vagrant Virtual Machines Lab
 
 This repository contains a hands-on DevOps lab where I practiced creating and managing virtual machines using Vagrant.
 
